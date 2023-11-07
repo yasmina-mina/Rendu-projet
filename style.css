@@ -1,0 +1,97 @@
+*{
+    margin:0px
+}
+
+header{
+    background-image: url(assets/planche-surf-mouillee-glisse-travers-belle-vague-tonneau-tropicale-generee-par-ia_188544-16348.jpg);
+    background-size: cover;
+    background-position:bottom -200px right 0px;
+    
+}
+
+.haut{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    padding: 20px;
+}
+
+.dix{
+    width: 10%;
+}
+
+p{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: whitesmoke;
+    letter-spacing: 10px;
+    width: 80%;
+    text-align:center;
+
+}
+
+box-icon {
+
+margin: 0 10px;
+
+}
+
+
+
+span{
+    width: 10%;
+}
+
+nav{
+    
+    display: flex;
+    justify-content:space-evenly;
+    height: 30px;
+    border-bottom: 10px solid whitesmoke;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color:whitesmoke
+    }
+
+a:hover{
+    text-decoration: overline 3px;
+}
+
+.corps{
+    height:80vh;
+    background-color: rgb(39, 79, 98);
+    background-image: url(assets/femme\ piscine.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+h2{
+    font-family:  'Playfair Display', serif;
+    font-size: 70px;
+    font-weight: 600;
+    color: rgb(39, 79, 98);
+    letter-spacing: 10px;
+    margin-left: 50px;
+}
+
+.context{
+    width: 100%;
+   
+    color: rgb(39, 79, 98);
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: 65vh;
+    background-color: whitesmoke;
+    padding: 15px ;
+}
