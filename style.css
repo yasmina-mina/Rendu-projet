@@ -2,19 +2,20 @@
     margin:0px
 }
 
-header{
-    background-image: url(assets/planche-surf-mouillee-glisse-travers-belle-vague-tonneau-tropicale-generee-par-ia_188544-16348.jpg);
-    background-size: cover;
-    background-position:bottom -200px right 0px;
-    
+.fond{
+    height: 200vh;
+background-image: url(assets/planche-surf-mouillee-glisse-travers-belle-vague-tonneau-tropicale-generee-par-ia_188544-16348.jpg);
+background-size: cover; 
+background-position: center;
+
+
 }
 
-.haut{
-    
+.haut{ 
     display: flex;
     justify-content: space-between;
-    height: 70px;
-    padding: 20px;
+    height:70px;
+    padding:20px;
 }
 
 .dix{
@@ -49,7 +50,7 @@ nav{
     display: flex;
     justify-content:space-evenly;
     height: 30px;
-    border-bottom: 10px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
 }
 
 a{
@@ -59,39 +60,139 @@ a{
     color:whitesmoke
     }
 
-a:hover{
+nav a:hover{
     text-decoration: overline 3px;
 }
 
 .corps{
     height:80vh;
-    background-color: rgb(39, 79, 98);
-    background-image: url(assets/femme\ piscine.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
+    padding: 50px;  
+}
+
+.presentation{
+
+height: 500px;
+width: 1100px;
+background-color: rgba(245, 245, 245, 0.655);
+margin-top: 50px;
+margin-left: 155px;
+margin-right:200px ;
+border-radius: 20px;
+
+}
+.centrer{
+    display: flex;
 }
 
 h2{
     font-family:  'Playfair Display', serif;
-    font-size: 70px;
-    font-weight: 600;
-    color: rgb(39, 79, 98);
+    font-size: 40px;
+    font-weight: 900;
+    color:white;
     letter-spacing: 10px;
     margin-left: 50px;
+    text-align: left;
+}
+.texte{
+    width: 550px;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color:white;
+
 }
 
-.context{
-    width: 100%;
-   
-    color: rgb(39, 79, 98);
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 400;
-    font-size: 25px;
-    letter-spacing: 1px;
-    text-align: left;
-    margin-top: 65vh;
-    background-color: whitesmoke;
-    padding: 15px ;
+.femme{
+    width: 550px;
+    margin-right: 10px;
+    border-radius: 20px;
 }
+
+.bouton {
+	background-color:#bfbfbf;
+	border-radius:13px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'PT Sans', sans-serif;
+	font-size:18px;
+	padding:16px 20px;
+	text-decoration:none;
+    margin-right: 52px;
+    margin-top: 50px;
+}
+.bouton:hover {
+	background-color:#737373;
+}
+.bouton:active {
+	position:relative;
+	top:1px;
+}
+
+a input{
+background-color: transparent;
+border: solid 2px white;
+border-radius: 10px;
+color: white;
+font-family: 'PT Sans', sans-serif;
+font-weight: 900;
+}
+
+.ville{
+    height: 500px;
+    width: 1100px;
+   
+    margin-left: 200px;
+
+
+
+}
+
+
+
+.lesvilles{
+
+    font-family:  'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 900;
+    color:white;
+    letter-spacing: 10px;
+}
+
+h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.centrerd{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10px;
+}
+
+.carte{
+   width: 300px;
+   height: auto;
+   margin-top: 10px;
+   padding: 10px;
+   font-family: 'PT Sans', sans-serif;
+   font-size: 18px;
+   color:white;
+   filter:grayscale(100)
+}
+
+.photo{
+    width: 280px;
+    margin-right: 10px;
+    border-radius: 500px;
+}
+
+
+/*rgb(17, 60, 77)*/
