@@ -3,7 +3,7 @@
 }
 
 .fond{
-    height: 200vh;
+    height: 180vh;
 background-image: url(assets/planche-surf-mouillee-glisse-travers-belle-vague-tonneau-tropicale-generee-par-ia_188544-16348.jpg);
 background-size: cover; 
 background-position: center;
@@ -58,7 +58,7 @@ a{
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
     color:whitesmoke
-    }
+}
 
 nav a:hover{
     text-decoration: overline 3px;
@@ -73,7 +73,7 @@ nav a:hover{
 
 height: 500px;
 width: 1100px;
-background-color: rgba(245, 245, 245, 0.655);
+background-color: rgba(153, 149, 149, 0.573);
 margin-top: 50px;
 margin-left: 155px;
 margin-right:200px ;
@@ -185,7 +185,8 @@ h3{
    font-family: 'PT Sans', sans-serif;
    font-size: 18px;
    color:white;
-   filter:grayscale(100)
+   filter:grayscale(100);
+   transition: all 0.5s;
 }
 
 .photo{
@@ -194,5 +195,10 @@ h3{
     border-radius: 500px;
 }
 
+.carte:hover{
+filter: grayscale(0);
+transform: translateY(-10px);
+
+}
 
 /*rgb(17, 60, 77)*/
